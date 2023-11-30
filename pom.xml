@@ -12,6 +12,7 @@
     <sonar.projectKey>saquib1928_shopping</sonar.projectKey>
     <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
     <sonar.projectName>Shopping Cart</sonar.projectName>
+	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
