@@ -6,6 +6,12 @@
 	<packaging>war</packaging>
 	<name>Shopping Cart</name>
 	<description>A Shopping Cart Project in Java by Bitter Code</description>
+	<properties>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.organization>saquib1928</sonar.organization>
+    <sonar.projectKey>saquib1928_shopping</sonar.projectKey>
+    <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
+    <sonar.projectName>Shopping Cart</sonar.projectName>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
